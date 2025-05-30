@@ -20,5 +20,5 @@ build
 # other
 eclipse
 run
-/gradle/*
-/run-data/*
+gradle
+run-data

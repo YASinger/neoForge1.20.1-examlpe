@@ -14,6 +14,7 @@ public class ModZhLangGen extends LanguageProvider {
     @Override
     protected void addTranslations() {
         add(ModItems.PRIMOGEM.get(), "原石");
+        add(ModItems.EIGHT_BALL.get(), "八号球");
         add(ModBlocks.PRIMOGEM_BLOCK.get(), "原石块");
     }
 }

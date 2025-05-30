@@ -19,6 +19,7 @@ public class ModItemModeGen extends ItemModelProvider {
     @Override
     protected void registerModels() {
         itemGeneratedModel(ModItems.PRIMOGEM.get(), resourceItem(itemName(ModItems.PRIMOGEM.get())));
+        itemGeneratedModel(ModItems.EIGHT_BALL.get(), resourceItem(itemName(ModItems.EIGHT_BALL.get())));
     }
 
     public void itemGeneratedModel(Item item, ResourceLocation texture) {

@@ -21,6 +21,7 @@ public class ModCreativeModeTab {
                     .displayItems((pParameters, pOutput) -> {
                         //  物品
                         pOutput.accept(ModItems.PRIMOGEM.get());
+                        pOutput.accept(ModItems.EIGHT_BALL.get());
                         //  block
                         pOutput.accept(ModBlocks.PRIMOGEM_BLOCK.get());
                         //  原版
