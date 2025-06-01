@@ -21,9 +21,13 @@ public class ModCreativeModeTab {
                     .displayItems((pParameters, pOutput) -> {
                         //  物品
                         pOutput.accept(ModItems.PRIMOGEM.get());
+                        pOutput.accept(ModItems.RAW_PRIMOGEM.get());
                         pOutput.accept(ModItems.EIGHT_BALL.get());
                         //  block
                         pOutput.accept(ModBlocks.PRIMOGEM_BLOCK.get());
+                        pOutput.accept(ModBlocks.PRIMOGEM_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_PRIMOGEM_ORE.get());
+                        pOutput.accept(ModBlocks.ENDSTONE_PRIMOGEM_ORE.get());
                         //  原版
                         pOutput.accept(Items.DIAMOND);
                     }).build());

@@ -15,6 +15,9 @@ public class ModBlockModelGen extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         this.registerBlockModelAndItem(ModBlocks.PRIMOGEM_BLOCK.get());
+        this.registerBlockModelAndItem(ModBlocks.PRIMOGEM_ORE.get());
+        this.registerBlockModelAndItem(ModBlocks.DEEPSLATE_PRIMOGEM_ORE.get());
+        this.registerBlockModelAndItem(ModBlocks.ENDSTONE_PRIMOGEM_ORE.get());
     }
 
     public void registerBlockModelAndItem(Block block) {

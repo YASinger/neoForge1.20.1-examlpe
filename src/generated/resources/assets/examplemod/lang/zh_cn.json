@@ -1,5 +1,9 @@
 {
+  "block.examplemod.deepslate_primogem_ore": "下界原石矿",
+  "block.examplemod.endstone_primogem_ore": "末地原石矿",
   "block.examplemod.primogem_block": "原石块",
+  "block.examplemod.primogem_ore": "原石矿",
   "item.examplemod.eight_ball": "八号球",
-  "item.examplemod.primogem": "原石"
+  "item.examplemod.primogem": "原石",
+  "item.examplemod.raw_primogem": "粗原石"
 }

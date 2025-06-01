@@ -14,6 +14,8 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, exampleMod.MOD_ID);
     public static  final RegistryObject<Item> PRIMOGEM = ITEMS.register("primogem",
             () -> new Item(new Item.Properties()));
+    public static  final RegistryObject<Item> RAW_PRIMOGEM = ITEMS.register("raw_primogem",
+            () -> new Item(new Item.Properties()));
     public static  final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
             () -> new EightBallItem(new Item.Properties().stacksTo(1)));
     public static void register(IEventBus eventBus) {
