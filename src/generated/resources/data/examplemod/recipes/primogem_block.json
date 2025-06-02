@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "examplemod",
+  "key": {
+    "#": {
+      "item": "examplemod:primogem"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "examplemod:primogem_block"
+  },
+  "show_notification": true
+}

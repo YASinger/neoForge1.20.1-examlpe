@@ -34,6 +34,7 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new ModZhLangGen(output, "zh_cn"));
         generator.addProvider(event.includeClient(), new ModBlockModelGen(output, helper));
 
+        generator.addProvider(event.includeServer(), new ModRecipesGen(output));
         generator.addProvider(event.includeServer(), new LootTableProvider(output, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModLootTableGen::new, LootContextParamSets.BLOCK))));
     }
