@@ -21,6 +21,7 @@ public class ModLootTableGen  extends VanillaBlockLoot {
     @Override
     protected void generate() {
         dropSelf(ModBlocks.PRIMOGEM_BLOCK.get());
+        dropSelf(ModBlocks.JUMPY_BLOCK.get());
         add(ModBlocks.PRIMOGEM_ORE.get(), this::createPrimogemOreDrops);
         add(ModBlocks.DEEPSLATE_PRIMOGEM_ORE.get(), this::createPrimogemOreDrops);
         add(ModBlocks.ENDSTONE_PRIMOGEM_ORE.get(), this::createPrimogemOreDrops);

@@ -1,5 +1,6 @@
-// 1.20.1	2025-06-01T01:21:00.1573027	Loot Tables
+// 1.20.1	2025-06-04T15:07:54.872031	Loot Tables
 0870fb811e9926addbebdf954b6f06fd71eb0a7b data/examplemod/loot_tables/blocks/deepslate_primogem_ore.json
 ee1a4d74f4d2e6d51768fbfba84426acd2734ca5 data/examplemod/loot_tables/blocks/endstone_primogem_ore.json
+cd415b7d859d17536cb0bec29b7642a7e7d0c6c9 data/examplemod/loot_tables/blocks/jumpy_block.json
 c01332b6c22e54cef31841a4ca642ee9b5dbeeac data/examplemod/loot_tables/blocks/primogem_block.json
 e982c6db6e0b2895fa644cdf599ec39f06534540 data/examplemod/loot_tables/blocks/primogem_ore.json

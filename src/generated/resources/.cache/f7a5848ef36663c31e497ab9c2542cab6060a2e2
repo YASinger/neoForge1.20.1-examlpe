@@ -1,13 +1,16 @@
-// 1.20.1	2025-05-31T23:35:07.9783238	Block States: examplemod
+// 1.20.1	2025-06-04T15:07:54.8680189	Block States: examplemod
 a7faa8f2d4715e1a46a940b9c5b84db85a3e41d8 assets/examplemod/blockstates/deepslate_primogem_ore.json
 d161d3e431fed20c1f6b4bc9339497654e994429 assets/examplemod/blockstates/endstone_primogem_ore.json
+57e639b1063662efa9af914e8c63e6e3a8079fcc assets/examplemod/blockstates/jumpy_block.json
 e3cfcbd7ee52af5efc314cc205205934ecee5586 assets/examplemod/blockstates/primogem_block.json
 876360aa80fccdfc7a3895052ebcb418e25024d9 assets/examplemod/blockstates/primogem_ore.json
 58b80036b358d2371c5d8f363e7d7880950f0896 assets/examplemod/models/block/deepslate_primogem_ore.json
 59cf5d0d551de30cacae800a1d53c5966664605d assets/examplemod/models/block/endstone_primogem_ore.json
+ba960a43b4e8a8bf30779984d606c9b5642a22c8 assets/examplemod/models/block/jumpy_block.json
 9600d74f21f6c76f7c951795a811e47197a2f7f1 assets/examplemod/models/block/primogem_block.json
 8b9a373c99fc9669ae85292223e552c2058b26f3 assets/examplemod/models/block/primogem_ore.json
 b490f21e4c364364445baab827d9031ef07cb971 assets/examplemod/models/item/deepslate_primogem_ore.json
 0464207c2b0281025d743887862e6ba555b3e1bf assets/examplemod/models/item/endstone_primogem_ore.json
+d3a8f6c6f9903186cd7e5266e8feeb7ad518fcf4 assets/examplemod/models/item/jumpy_block.json
 8e98811332b44c76dc7dc288cf6aca837c69d787 assets/examplemod/models/item/primogem_block.json
 4a7c8d29480c5362e8501befae409329c2ec4d2d assets/examplemod/models/item/primogem_ore.json

@@ -28,6 +28,7 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.PRIMOGEM_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_PRIMOGEM_ORE.get());
                         pOutput.accept(ModBlocks.ENDSTONE_PRIMOGEM_ORE.get());
+                        pOutput.accept(ModBlocks.JUMPY_BLOCK.get());
                         //  原版
                         pOutput.accept(Items.DIAMOND);
                     }).build());

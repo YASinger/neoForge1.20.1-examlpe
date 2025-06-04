@@ -22,5 +22,6 @@ public class ModZhLangGen extends LanguageProvider {
         add(ModBlocks.PRIMOGEM_ORE.get(), "原石矿");
         add(ModBlocks.DEEPSLATE_PRIMOGEM_ORE.get(), "下界原石矿");
         add(ModBlocks.ENDSTONE_PRIMOGEM_ORE.get(), "末地原石矿");
+        add(ModBlocks.JUMPY_BLOCK.get(), "跳跃方块");
     }
 }

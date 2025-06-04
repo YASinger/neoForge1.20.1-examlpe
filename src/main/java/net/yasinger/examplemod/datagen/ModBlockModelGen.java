@@ -18,6 +18,7 @@ public class ModBlockModelGen extends BlockStateProvider {
         this.registerBlockModelAndItem(ModBlocks.PRIMOGEM_ORE.get());
         this.registerBlockModelAndItem(ModBlocks.DEEPSLATE_PRIMOGEM_ORE.get());
         this.registerBlockModelAndItem(ModBlocks.ENDSTONE_PRIMOGEM_ORE.get());
+        this.registerBlockModelAndItem(ModBlocks.JUMPY_BLOCK.get());
     }
 
     public void registerBlockModelAndItem(Block block) {
