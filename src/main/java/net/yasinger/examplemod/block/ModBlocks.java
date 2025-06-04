@@ -12,6 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 import net.yasinger.examplemod.block.custom.JumpyBlock;
+import net.yasinger.examplemod.block.custom.PrimogemLampBlock;
 import net.yasinger.examplemod.exampleMod;
 import net.yasinger.examplemod.item.ModItems;
 
@@ -38,6 +39,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
             () -> new JumpyBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f)));
+
+    public static final RegistryObject<Block> PRIMOGEM_LAMP_BLOCK = registerBlock("primogem_lamp_block",
+            () -> new PrimogemLampBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f)
+                    .lightLevel(state -> state.getValue(PrimogemLampBlock.LIT) ? 15 : 0)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
