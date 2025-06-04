@@ -1,4 +1,11 @@
 {
+  "block.examplemod.deepslate_primogem_ore": "deepslate primogem ore",
+  "block.examplemod.endstone_primogem_ore": "endstone primogem ore",
+  "block.examplemod.jumpy_block": "jumpy block",
   "block.examplemod.primogem_block": "primogem block",
-  "item.examplemod.primogem": "primogem"
+  "block.examplemod.primogem_lamp_block": "primogem lamp block",
+  "block.examplemod.primogem_ore": "primogem ore",
+  "item.examplemod.eight_ball": "eight ball",
+  "item.examplemod.primogem": "primogem",
+  "item.examplemod.raw_primogem": "raw primogem"
 }

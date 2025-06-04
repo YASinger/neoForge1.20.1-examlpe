@@ -32,4 +32,8 @@ public class PrimogemLampBlock extends Block {
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(LIT);
     }
+
+    public BooleanProperty getLitProperty() {
+        return LIT;
+    }
 }

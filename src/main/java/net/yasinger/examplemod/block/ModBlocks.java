@@ -29,8 +29,7 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)));
     public static final RegistryObject<Block> DEEPSLATE_PRIMOGEM_ORE = registerBlock("deepslate_primogem_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
-                    .strength(6f).requiresCorrectToolForDrops(),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE),
                     UniformInt.of(3, 7)));
     public static final RegistryObject<Block> ENDSTONE_PRIMOGEM_ORE = registerBlock("endstone_primogem_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

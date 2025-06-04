@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "examplemod:block/primogem_lamp_block_off"
+    },
+    "lit=true": {
+      "model": "examplemod:block/primogem_lamp_block_on"
+    }
+  }
+}
