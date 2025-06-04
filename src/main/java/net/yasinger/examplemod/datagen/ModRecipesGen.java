@@ -29,6 +29,8 @@ public class ModRecipesGen extends RecipeProvider {
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.PRIMOGEM.get(), 9)
                 .requires(ModBlocks.PRIMOGEM_BLOCK.get())
                 .group("examplemod")
+                .unlockedBy("has_primogem_block", InventoryChangeTrigger.TriggerInstance.hasItems(
+                        ItemPredicate.Builder.item().of(ModBlocks.PRIMOGEM_BLOCK.get()).build()))
                 .save(pWriter);
 
         oreSmelting(pWriter, List.of(ModItems.RAW_PRIMOGEM.get()), RecipeCategory.MISC, ModItems.PRIMOGEM.get(), 0.7f, 200, "examplemod");

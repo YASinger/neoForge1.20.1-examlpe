@@ -1,0 +1,9 @@
+// 1.20.1	2025-06-04T09:55:15.5115565	Recipes
+128250b64e4215339cc4c703f26ca43eb8524741 data/examplemod/advancements/recipes/misc/primogem.json
+af30e98220b8f7c625b82af63cb855eac1641f2f data/examplemod/advancements/recipes/misc/primogem_block.json
+6310fa30c62a2948b58cdb32047bdca6664bc3ed data/examplemod/recipes/primogem.json
+9ba25b8733d8a8bad169776b8d028f4f663ca416 data/examplemod/recipes/primogem_block.json
+7dbb11c16bf43eb4fbad9f8897e265b382713f1d data/minecraft/advancements/recipes/misc/primogem_from_blasting_raw_primogem.json
+674917ad15e7edfafaba4f70f26077ff4caa0e40 data/minecraft/advancements/recipes/misc/primogem_from_smelting_raw_primogem.json
+5762514d0fb9f0acd8bbdd7a630385db5cce4559 data/minecraft/recipes/primogem_from_blasting_raw_primogem.json
+bac2aef87b44707967582db3168deff67ca8c308 data/minecraft/recipes/primogem_from_smelting_raw_primogem.json
